@@ -3,9 +3,12 @@
 @import url(footer.css);
 @import url(blogpost.css);
 
+
+
 @media(min-width:900px){
+    
    
-    .container{
+    .container-blog{
     display: grid;
     width: 100%;
     margin:auto;
@@ -25,6 +28,8 @@
     }
     .three{
         grid-area: main;
+        background-color: red;
+        
         
     }
     .four{
@@ -37,7 +42,7 @@
         
         
     }
-
+    /*for the homepage*/
     .blog-container{
     
         display:grid;
