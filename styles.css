@@ -13,7 +13,7 @@
     width: 100%;
     margin:auto;
     grid-template-columns: 20vw 10vw;
-    grid-template-rows: 25vh 60vh 20vh;
+    grid-template-rows: 20vh 100vh 1fr;
     grid-template-areas: 
     "hd hd hd hd hd hd hd hd"
     "sd sd sd main main main main main"
@@ -28,16 +28,18 @@
     }
     .three{
         grid-area: main;
-        background-color: red;
-        
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
     }
     .four{
         grid-area: ft;
         
     }
     .two img{
-        width:50%;
+        width:70%;
+        height: 50%;
         border-radius: 360%;
         
         
