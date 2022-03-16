@@ -11,6 +11,9 @@ body{
 button{
     background-color: #203239;
     color: aliceblue;
+    border-radius: 5px;
+    height:30px;
+    padding: 10px;
 }
 .container{
     
