@@ -1,35 +1,29 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     
 }
 body{
     background-color: #edf2f4;
+    width: 100%;
 }
 button{
     background-color: #203239;
     color: aliceblue;
+    border-radius: 5px;
+    height:30px;
+    padding: 10px;
 }
 .container{
     
     width: 100vw;
     background-color: #edf2f4;
-    margin-bottom: 650px;
+    margin-bottom:100px;
+    padding: 30px;
 }
-.blog-container{
-    
-    display:grid;
-    width: 100vw;
-    height: 100vh;
-    margin-bottom: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    grid-template-columns: 80vw;
-    /*grid-template-rows: 55vh 55vh;*/
-    grid-gap:10vh;
-    place-items: center;
 
-}
+    
 .card{
     
     
