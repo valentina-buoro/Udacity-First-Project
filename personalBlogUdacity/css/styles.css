@@ -17,7 +17,7 @@
    
     .container-blog{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 30px 200px;
     grid-template-rows: 20vh 100vh 1fr;
     grid-template-areas: 
     "hd hd hd hd hd hd  "
