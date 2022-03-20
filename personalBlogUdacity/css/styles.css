@@ -49,6 +49,7 @@
     }
     .four{
         grid-area: ft;
+        width: 100%;
         
     }
     .two img{
